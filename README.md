@@ -6,7 +6,7 @@ This document describes the complete workflow for estimating earthquake stress d
 
 Note that all the output files are saved as MATLAB .mat binary format, which can be easily accessed in both Python and MATLAB.
 
-During the program execution, you may be informed some dependencies/packages/modules are missing. Please follow some common pipelines on the Internet to install them.
+During the program execution, you may notice some dependencies/packages/modules are missing. Please follow some common pipelines on the Internet to install them.
 
 ---
 
