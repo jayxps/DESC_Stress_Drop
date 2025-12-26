@@ -1,4 +1,4 @@
-**Differential-Evolution-based Spectral Correction (DESC) Method for Earthquake Stress Drop Estimation**
+# Differential-Evolution-based Spectral Correction (DESC) Method for Earthquake Stress Drop Estimation
 
 Author: Jiewen Zhang (jayxps.work@gmail.com)
 
