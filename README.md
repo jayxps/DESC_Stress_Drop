@@ -20,14 +20,12 @@ The DESC method estimates earthquake stress drops by combining spectral decompos
 
 
 Required Python packages:
-```
---> NumPy
---> SciPy
---> ObsPy
---> Matplotlib
---> JobLib (For parallel processing)
---> Multitaper (Credit: Germán A. Prieto, https://github.com/gaprieto/multitaper)
-```
+- NumPy
+- SciPy
+- ObsPy
+- Matplotlib
+- JobLib (For parallel processing)
+- Multitaper (Credit: Germán A. Prieto, https://github.com/gaprieto/multitaper)
 
 
 References:
@@ -50,13 +48,13 @@ Special thanks to Prof. Zhigang Peng who provided the module reading SAC files.
 
 ## Directory Structure
 
-Note: the Python and MATLAB packages follow the same naming patterns other than the suffixes
-     --> Python: .ipynb (main programs) and .py (subroutines) for Python (Tested for Python 3.8 and higher)
-     --> MATLAB: .m for MATLAB (Tested for MATLAB 2020 and higher)
+**Note 1**: the Python and MATLAB packages follow the same naming patterns other than the suffixes
+- Python: .ipynb (main programs) and .py (subroutines) for Python (Tested for Python 3.8 and higher)
+- MATLAB: .m for MATLAB (Tested for MATLAB 2020 and higher)
 
-Note 2: You are recommended to use the parallel version to accelerate preprocessing in case of a large dataset.
+**Note 2**: You are recommended to use the parallel version to accelerate preprocessing in case of a large dataset.
 
-Note 3: If you compare the absolute stress drops calculated using the Python and MATLAB versions, you may notice very minor difference; this is because when calculating the spectra, the Python version is using a different package than the MATLAB one, which introduce slight differences in parameter selections. Such difference is too minor compared to the uncertainty and variability levels.
+**Note 3**: If you compare the absolute stress drops calculated using the Python and MATLAB versions, you may notice very minor difference; this is because when calculating the spectra, the Python version is using a different package than the MATLAB one, which introduce slight differences in parameter selections. Such difference is too minor compared to the uncertainty and variability levels.
 
 ```
 DESC_Python/
@@ -87,10 +85,10 @@ DESC_Python/
 ```
 
 A quick run using samples provided:
-Step 1: preprocessing/sac_mat(_par)
-Step 2: preprocessing/compute_spec(_par)
-Step 3: analysis/spectral_decomposition
-Step 4: analysis/DESC_inversion
+- **Step 1**: preprocessing/sac_mat(_par)
+- **Step 2**: preprocessing/compute_spec(_par)
+- **Step 3**: analysis/spectral_decomposition
+- **Step 4**: analysis/DESC_inversion
 
 ---
 
