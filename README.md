@@ -34,6 +34,8 @@ Zhang J, Yang H, Zi J, et al. An improved estimation of stress drop and its appl
 
 Zhang J, Yang H. Improved source parameter estimation of earthquakes in the 2019 Ridgecrest sequence based on a global‐optimization algorithm and their implications on fault behaviors. Bulletin of the Seismological Society of America, 2025, 115(3): 805-824.
 
+Jiang Y, Zhang J, Zi J, et al. Source mechanism and rupture directivity of small earthquakes in the Changning region, China, using a dense array data. arXiv preprint arXiv:2512.11326, 2025.
+
 Prieto G A. The multitaper spectrum analysis package in Python. Seismological Society of America, 2022, 93(3): 1922-1929.
 
 Storn R, Price K. Differential evolution–a simple and efficient heuristic for global optimization over continuous spaces. Journal of global optimization, 1997, 11(4): 341-359.
