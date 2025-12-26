@@ -20,12 +20,14 @@ The DESC method estimates earthquake stress drops by combining spectral decompos
 
 
 Required Python packages:
+```
 --> NumPy
 --> SciPy
 --> ObsPy
 --> Matplotlib
 --> JobLib (For parallel processing)
 --> Multitaper (Credit: Germán A. Prieto, https://github.com/gaprieto/multitaper)
+```
 
 
 References:
