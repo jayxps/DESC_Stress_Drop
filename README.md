@@ -51,8 +51,8 @@ Special thanks to Prof. Zhigang Peng who provided the module reading SAC files.
 ## Directory Structure
 
 **Note 1**: the Python and MATLAB packages follow the same naming patterns other than the suffixes
-- Python: .ipynb (main programs) and .py (subroutines) for Python (Tested for Python 3.8 and higher)
-- MATLAB: .m for MATLAB (Tested for MATLAB 2020 and higher)
+- Python: .ipynb (main programs) and .py (subroutines) (Tested for Python 3.8 and higher)
+- MATLAB: .m (Tested for MATLAB 2020 and higher)
 
 **Note 2**: You are recommended to use the parallel version to accelerate preprocessing in case of a large dataset.
 
