@@ -50,13 +50,13 @@ Special thanks to Prof. Zhigang Peng who provided the module reading SAC files.
 
 ## Directory Structure
 
-**Note 1**: the Python and MATLAB packages follow the same naming patterns other than the suffixes
+**Note 1**: The Python and MATLAB packages follow the same naming patterns except for the suffixes
 - Python: .ipynb (main programs) and .py (subroutines) (Tested for Python 3.8 and higher)
 - MATLAB: .m (Tested for MATLAB 2020 and higher)
 
 **Note 2**: You are recommended to use the parallel version to accelerate preprocessing in case of a large dataset.
 
-**Note 3**: If you compare the absolute stress drops calculated using the Python and MATLAB versions, you may notice very minor difference; this is because when calculating the spectra, the Python version is using a different package than the MATLAB one, which introduce slight differences in parameter selections. Such difference is too minor compared to the uncertainty and variability levels.
+**Note 3**: If you compare the absolute stress drops calculated using the Python and MATLAB versions, you may notice very minor differences; this is because the Python version uses a different package than the MATLAB one to calculate the spectra, which introduces slight differences in parameter selections. Such differences are nearly ignorable compared to the uncertainty and variability levels.
 
 ```
 DESC_Python/
@@ -104,7 +104,7 @@ A quick run using samples provided:
 **Process:**
 Build yourself a catalog file (`preprocessing/catalog`) following the format below:
 ```
-YEAR  MONTH  DAY  HOUR  MINUTE  SECOND  MAGNITUDE  LATITUDE  LONGTIUDE  DEPTH  ID
+YEAR  MONTH  DAY  HOUR  MINUTE  SECOND  MAGNITUDE  LATITUDE  LONGITUDE  DEPTH  ID
 2019     11    1     1      58   22.99       0.30   29.6120   -95.2213   2.91   1
 2019     11    1    23      23   57.89       0.40   29.6150   -95.2252   3.18   2
 ...
@@ -398,7 +398,7 @@ This ensures ECS is consistent across all events (check Zhang et al., 2024 for f
 3. **For each DE iteration:**
    - Calculate corner frequencies from stress drops
    - Compute predicted spectra using source model
-   - Calculate ECS for all events in diffrent magnitude bins
+   - Calculate ECS for all events in different magnitude bins
    - Compute median ECS for each magnitude bin
    - Return median ECS standard deviation across bins as cost
 
@@ -565,7 +565,7 @@ Maximizes consistency of EGF across all events.
    - Similar station distribution across magnitude range
 
 2. **Frequency Range:**
-   - Low frequency: Choose carefully to avoid low-freq problems e.g. drifting
+   - Low frequency: Choose carefully to avoid low-frequency problems e.g. drifting
    - High frequency: Choiise carefully to avoid instrument upper limit
    - Fitting band: Choose based on SNR and corner frequency range
 
@@ -606,7 +606,7 @@ Maximizes consistency of EGF across all events.
 
 ---
 
-## Troubleshooting (Note: If you don't understand some certain parts, avoid making any changes)
+## Troubleshooting (Note: If you don't understand certain parts, avoid making any changes)
 
 ### Common Issues
 
