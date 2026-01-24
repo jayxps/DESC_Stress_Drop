@@ -1,0 +1,56 @@
+Hi Mr Peng,
+
+I ve read my sac acc file into MatLab. The max/min values seem to be alright
+but the time display is not right. Attached you will find an example.
+The original Sac-file + the MatLab-file.
+Could you tell me what went wrong? That would be awesome as I dont have anyone
+helping me here with that problem.
+Another question:
+What is the normal procedure to do the FFT and look at the spectral domain
+afterwards?
+
+Thanks for your time in advance. Very much appreciated!!!
+Best regards,
+Flo Buech
+
+
+>===== Original Message From Zhigang Peng <zpeng3@mail.gatech.edu> =====
+>Hi, Flo:
+>
+>If needed, you can try my MatSAC package, which can be downloaded from
+>
+>http://shadow.eas.gatech.edu/~zpeng/Teaching/Sac_Tutorial_2006/MatSAC.tar.gz
+>
+>Please let me know if it does not work.
+>
+>Quoting fbu11 <fbu11@student.canterbury.ac.nz>:
+>
+>> Hello Mr Peng,
+>>
+>> I was just on a online search and got to your wepage. I am trying to
+>> convert/use my SAC time domain files to/in MatLab. My SAC runs on Linux and
+I
+>> want to use the Windows based version of MatLab 7.0.1 Do you have any clue
+>> how
+>> I can convert my files? It would be really nice if you could give me a
+hint.
+>> Best regards,
+>>
+>> Flo Buech
+>>
+>>
+>>
+>
+>
+>--
+>Zhigang Peng
+>Assistant Professor
+>School of Earth and Atmospheric Sciences
+>The Georgia Institute of Technology
+>ES&T Building, Rm. 2256
+>311 Ferst Drive
+>Atlanta, GA, 30332-0340
+>Phone: 404-894-0231
+>Fax: 404-894-5638
+>Email: zhigang.peng@eas.gatech.edu
+

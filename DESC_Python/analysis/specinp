@@ -1,0 +1,35 @@
+* evdir (Your matfile path)
+../data/matfile_spec/
+* target phase (e.g., P or S) (Specify phase to use)
+P
+* maximum range (km) (If local, ignore this)
+500
+* min,max magnitude (e.g., 1.0, 3.5)
+-10 10
+* min STN in three frequency bins
+* first enter frequency bins (f1-f2, f2-f3, f3-f4, format: f1 f2 f2 f3 f3 f4)
+2 4 4 20 20 40
+* then enter STN (Signal-to-Noise Ratio, for f1-f2, f2-f3, f3-f4 respectively)
+3 3 3
+* enter random fraction of events to process (Don't change this)
+2
+* enter location limit (latmin, latmax,lonmin,lonmax)
+-999 9999 -999 9999
+* enter choice of average (1) median, (2) mean, (3) robomean (Don't change this)
+3
+* enter maximum number of iterations (Don't need to change)
+20
+* enter travel time interval (in seconds. If the area is too small, this can be changed to smaller eg. 0.2)
+0.2
+* frequency band for tstar (Used to fit for Q, ignore it)
+2 30
+* minimum average stn for tstar (Used to fit for Q, ignore it)
+3
+* target network (put 'all' for all networks, or put network name)
+all
+* target station (put 'all' for all stations, or put station name)
+all
+* target channel (put 'all' for all channels, or put channel names separated by space)
+SH
+* eqinfo (Your eqinfo file. Default value is in the matfile root path)
+../data/matfile/eqinfo.mat

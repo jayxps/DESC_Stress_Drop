@@ -1,0 +1,12 @@
+* test the data sent by Flo Buech
+* sc rm -rf *.sgf
+* bd sgf
+* p1
+* sgftops f001.sgf f001.ps
+
+r rh0eacc.sac
+fft
+keepam
+p1
+w append .fft
+* sgftops f002.sgf f002.ps
